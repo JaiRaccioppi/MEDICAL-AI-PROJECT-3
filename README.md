@@ -143,19 +143,12 @@ This repository is scaffolded for reproducible experiments. After running traini
 
 ## Authors and Contributions
 
-Document final team members and roles in both places:
-
-- `reports/REPORT_TEMPLATE.md` title page table.
-- This section before submission.
-
-Template:
 
 | Name | Role | Contributions |
 |---|---|---|
-| Member 1 | Project lead | Coordination, experiment design |
-| Member 2 | Baseline engineer | LSTM implementation and tuning |
-| Member 3 | Transformer engineer | Transformer fine-tuning and analysis |
-| Member 4 | Evaluation lead | Metrics, error analysis, report/presentation |
+| Bryan Quiala Llera| Project lead | Coordination, Abstract, Introduction, & Literature Review |
+| Jai Raccioppi | Baseline engineer | Establish framework, Methods, Results, & Discussion |
+
 
 ## Dependencies
 
