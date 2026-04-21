@@ -1,0 +1,31 @@
+{
+  "dataset_name": "armanc/pubmed-rct20k",
+  "text_column": "text",
+  "label_column": "label",
+  "max_length": 128,
+  "batch_size": 32,
+  "num_workers": 2,
+  "seed": 42,
+  "quick_mode": false,
+  "quick_train_size": 20000,
+  "quick_validation_size": 5000,
+  "quick_test_size": 5000,
+  "lstm": {
+    "embedding_dim": 200,
+    "hidden_dim": 256,
+    "num_layers": 1,
+    "dropout": 0.2,
+    "bidirectional": true,
+    "learning_rate": 0.001,
+    "epochs": 5,
+    "max_vocab_size": 50000,
+    "min_token_frequency": 2
+  },
+  "transformer": {
+    "model_name": "distilbert-base-uncased",
+    "learning_rate": 2e-5,
+    "weight_decay": 0.01,
+    "epochs": 3,
+    "warmup_ratio": 0.06
+  }
+}
